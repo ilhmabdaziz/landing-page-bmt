@@ -63,7 +63,7 @@ function BuiltByDevelopers() {
           <MKTypography
             component="a"
             // href="../presentation"
-            href="/pages/landing-pages/about-us"
+            href="../../../../layouts/pages/landing-pages/about-us"
             // target="_blank"
             rel="noreferrer"
             variant="body2"

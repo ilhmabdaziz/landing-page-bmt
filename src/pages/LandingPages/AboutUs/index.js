@@ -39,7 +39,7 @@ import footerRoutes from "footer.routes";
 
 // Images
 // import bgImage from "assets/images/bg-about-us.jpg";
-import bgImage from "assets/images/BMT/img-use/people2.jpg";
+import bgImage from "assets/images/BMT/img-use/people.jpg";
 
 function AboutUs() {
   return (

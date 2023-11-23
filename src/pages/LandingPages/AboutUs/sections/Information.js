@@ -24,7 +24,7 @@ import MKBox from "components/MKBox";
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
 
-import bgImage from "assets/images/BMT/img-use/las1.jpg";
+import bgImage from "../../../../assets/images/BMT/img-use/las1.jpg";
 
 function Information() {
   return (

@@ -38,12 +38,13 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-about-us.jpg";
+// import bgImage from "assets/images/bg-about-us.jpg";
+import bgImage from "assets/images/BMT/img-use/people.jpg";
 
 function AboutUs() {
   return (
     <>
-      <DefaultNavbar
+      {/* <DefaultNavbar
         routes={routes}
         action={{
           type: "external",
@@ -53,6 +54,17 @@ function AboutUs() {
         }}
         transparent
         light
+      /> */}
+      <DefaultNavbar
+        routes={routes}
+        action={{
+          type: "logo",
+          route: "../Presentation",
+          // label: "free download",
+          // color: "white",
+          variant: "text",
+        }}
+        sticky
       />
       <MKBox
         minHeight="75vh"
@@ -89,19 +101,19 @@ function AboutUs() {
                 },
               })}
             >
-              Work with an amazing design
+              About us
             </MKTypography>
-            <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
+            {/* <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
               We&apos;re constantly trying to express ourselves and actualize our dreams. If you
               have the opportunity to play this game
-            </MKTypography>
-            <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
+            </MKTypography> */}
+            {/* <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               create account
-            </MKButton>
-            <MKTypography variant="h6" color="white" mt={8} mb={1}>
+            </MKButton> */}
+            {/* <MKTypography variant="h6" color="white" mt={8} mb={1}>
               Find us on
-            </MKTypography>
-            <MKBox display="flex" justifyContent="center" alignItems="center">
+            </MKTypography> */}
+            {/* <MKBox display="flex" justifyContent="center" alignItems="center">
               <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
                 <i className="fab fa-facebook" />
               </MKTypography>
@@ -114,7 +126,7 @@ function AboutUs() {
               <MKTypography component="a" variant="body1" color="white" href="#">
                 <i className="fab fa-google-plus" />
               </MKTypography>
-            </MKBox>
+            </MKBox> */}
           </Grid>
         </Container>
       </MKBox>
@@ -128,9 +140,9 @@ function AboutUs() {
         }}
       >
         <Information />
-        <Team />
-        <Featuring />
-        <Newsletter />
+        {/* <Team /> */}
+        {/* <Featuring /> */}
+        {/* <Newsletter /> */}
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

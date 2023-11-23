@@ -62,8 +62,9 @@ function BuiltByDevelopers() {
           </MKTypography> */}
           <MKTypography
             component="a"
-            href="../presentation"
-            target="_blank"
+            // href="../presentation"
+            href="/pages/landing-pages/about-us"
+            // target="_blank"
             rel="noreferrer"
             variant="body2"
             color="white"

@@ -28,13 +28,15 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKButton from "components/MKButton";
 
+import Img from "assets/images/BMT/img-use/las1.jpg";
+
 function CenteredBlogCard({ image, title, description, action }) {
   return (
     <Card>
       <MKBox position="relative" borderRadius="lg" mx={2} mt={-3}>
         <MKBox
           component="img"
-          src={image}
+          src={Img}
           alt={title}
           borderRadius="lg"
           width="100%"
@@ -50,7 +52,7 @@ function CenteredBlogCard({ image, title, description, action }) {
           left={0}
           top={0}
           sx={{
-            backgroundImage: `url(${image})`,
+            backgroundImage: `url(${Img})`,
             transform: "scale(0.94)",
             filter: "blur(12px)",
             backgroundSize: "cover",

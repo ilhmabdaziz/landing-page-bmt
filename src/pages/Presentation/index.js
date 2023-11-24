@@ -54,7 +54,7 @@ function Presentation() {
         routes={routes}
         action={{
           type: "logo",
-          route: "../Presentation",
+          route: "/",
           // label: "free download",
           // color: "white",
           variant: "text",

@@ -80,7 +80,8 @@ const routes = [
         collapse: [
           {
             name: "vision & mission",
-            route: "/pages/landing-pages/about-us",
+            // route: "/pages/landing-pages/about-us",
+            route: "/about-us",
             component: <AboutUs />,
           },
           {

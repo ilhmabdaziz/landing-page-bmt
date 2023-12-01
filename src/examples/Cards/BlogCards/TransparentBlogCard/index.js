@@ -108,7 +108,7 @@ function TransparentBlogCard({ image, title, description, action }) {
         <MKTypography variant="body2" component="p" color="text" mb={3}>
           {description}
         </MKTypography>
-        {action.type === "internal" ? (
+        {/* {action.type === "internal" ? (
           <MKTypography
             component={Link}
             to={action.route}
@@ -136,7 +136,7 @@ function TransparentBlogCard({ image, title, description, action }) {
             {action.label}
             <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
           </MKTypography>
-        )}
+        )} */}
       </MKBox>
     </Card>
   );

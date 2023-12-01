@@ -51,12 +51,14 @@ function Places() {
               image={img1}
               title="Rover raised $65 million"
               description="Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover ..."
-              action={{
-                type: "internal",
-                // route: "/pages/blogs/author",
-                color: "info",
-                label: "read more",
-              }}
+              action={
+                {
+                  // type: "internal",
+                  // route: "/pages/blogs/author",
+                  // color: "info",
+                  // label: "read more",
+                }
+              }
             />
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
@@ -64,12 +66,14 @@ function Places() {
               image={img2}
               title="MateLabs machine learning"
               description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with ..."
-              action={{
-                type: "internal",
-                // route: "/pages/blogs/author",
-                color: "info",
-                label: "read more",
-              }}
+              action={
+                {
+                  // type: "internal",
+                  // route: "/pages/blogs/author",
+                  // color: "info",
+                  // label: "read more",
+                }
+              }
             />
           </Grid>
           {/* <Grid item xs={12} sm={6} lg={3}>

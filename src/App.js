@@ -60,7 +60,7 @@ export default function App() {
         {getRoutes(routes)}
         <Route path="/" element={<Presentation />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/our-business/product/storage-tank" element={<Products />} />
+        <Route path="/product/storage-tank" element={<Products />} />
         {/* <Route path="*" element={<Navigate to="/presentation" />} /> */}
       </Routes>
     </ThemeProvider>

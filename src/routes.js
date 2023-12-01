@@ -134,7 +134,7 @@ const routes = [
             // component: <PageHeaders />,
 
             // route: "/pages/landing-pages/author",
-            route: "/our-business/product/storage-tank",
+            route: "/product/storage-tank",
             component: <Products />,
           },
           {

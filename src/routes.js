@@ -47,6 +47,7 @@ import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
 // import SignIn from "layouts/pages/authentication/sign-in";
+import Products from "layouts/pages/landing-pages/products";
 
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
@@ -128,17 +129,31 @@ const routes = [
         dropdown: true,
         collapse: [
           {
-            name: "pipeline",
+            name: "storage tank",
             // route: "/sections/page-sections/page-headers",
-            component: <PageHeaders />,
+            // component: <PageHeaders />,
+
+            // route: "/pages/landing-pages/author",
+            route: "/our-business/product/storage-tank",
+            component: <Products />,
           },
           {
-            name: "oil & gas",
+            name: "construction building",
             // route: "/sections/page-sections/features",
             component: <Features />,
           },
           {
-            name: "steel storage tank",
+            name: "piping & instrumen",
+            // route: "/sections/page-sections/features",
+            component: <Features />,
+          },
+          {
+            name: "ducting & insulation",
+            // route: "/sections/page-sections/features",
+            component: <Features />,
+          },
+          {
+            name: "sandblasting & painting",
             // route: "/sections/page-sections/features",
             component: <Features />,
           },

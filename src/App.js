@@ -26,7 +26,11 @@ import CssBaseline from "@mui/material/CssBaseline";
 import theme from "assets/theme";
 import Presentation from "layouts/pages/presentation";
 import AboutUs from "layouts/pages/landing-pages/about-us";
-import Products from "layouts/pages/landing-pages/products";
+import StorageTank from "layouts/pages/landing-pages/products/storage-tank";
+import ConstructionBuilding from "pages/LandingPages/Products/ConstructionBuilding";
+import PipingInstrument from "pages/LandingPages/Products/PipingInstrument";
+import DuctingInsulation from "pages/LandingPages/Products/DuctingInsulation";
+import SandblastingPainting from "pages/LandingPages/Products/SandblastingPainting";
 
 // Material Kit 2 React routes
 import routes from "routes";
@@ -60,7 +64,11 @@ export default function App() {
         {getRoutes(routes)}
         <Route path="/" element={<Presentation />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/product/storage-tank" element={<Products />} />
+        <Route path="/product/storage-tank" element={<StorageTank />} />
+        <Route path="/product/construction-building" element={<ConstructionBuilding />} />
+        <Route path="/product/piping-instrumen" element={<PipingInstrument />} />
+        <Route path="/product/ducting-insulation" element={<DuctingInsulation />} />
+        <Route path="/product/sandblasting-painting" element={<SandblastingPainting />} />
         {/* <Route path="*" element={<Navigate to="/presentation" />} /> */}
       </Routes>
     </ThemeProvider>

@@ -35,7 +35,45 @@ import routes from "routes";
 import bgImage from "assets/images/BMT/img-use/pipa.jpg";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 
-function Products() {
+import img1 from "assets/images/BMT/img-use/storage-tank/IMG_5057.JPG";
+import img2 from "assets/images/BMT/img-use/storage-tank/tower1.jpg";
+import img3 from "assets/images/BMT/img-use/storage-tank/tower1.jpg";
+
+function StorageTank() {
+  const title = "Storage Tank";
+  const description = `Many factors should be taken into consideration when designing and building storage
+                tanks. Although the most important factor is dependent upon the application and the
+                method of usage that the storage tank is built for, taking into account the logistic
+                process, method of shipping, and installation is also important.`;
+  const products = [
+    {
+      id: 1,
+      img: img1,
+      type: "img",
+      title: "Rover raised $65 million",
+      description:
+        "Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover ...",
+      lg: 3,
+    },
+    {
+      id: 2,
+      img: img2,
+      type: "img",
+      title: "MateLabs machine learning",
+      description:
+        "If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with ...",
+      lg: 4,
+    },
+    {
+      id: 3,
+      img: img3,
+      type: "bg",
+      title: "Flexible work hours",
+      description:
+        "Rather than worrying about switching offices every couple years, you stay in the same place.",
+      lg: 5,
+    },
+  ];
   return (
     <>
       {/* <DefaultNavbar
@@ -87,8 +125,8 @@ function Products() {
             boxShadow: ({ boxShadows: { xxl } }) => xxl,
           }}
         >
-          <Profile />
-          <Posts />
+          <Profile title={title} description={description} />
+          <Posts data={products} />
         </Card>
         {/* <Contact /> */}
         <Footer />
@@ -97,4 +135,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default StorageTank;

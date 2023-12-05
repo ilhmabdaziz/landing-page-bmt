@@ -47,7 +47,11 @@ import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
 // import SignIn from "layouts/pages/authentication/sign-in";
-import Products from "layouts/pages/landing-pages/products";
+import StorageTank from "layouts/pages/landing-pages/products/storage-tank";
+import ConstructionBuilding from "layouts/pages/landing-pages/products/construction-building";
+import PipingInstrument from "layouts/pages/landing-pages/products/piping-instrument";
+import DuctingInsulation from "layouts/pages/landing-pages/products/ducting-insulation";
+import SandblastingPainting from "layouts/pages/landing-pages/products/sandblasting-painting";
 
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
@@ -135,27 +139,35 @@ const routes = [
 
             // route: "/pages/landing-pages/author",
             route: "/product/storage-tank",
-            component: <Products />,
+            component: <StorageTank />,
           },
           {
             name: "construction building",
             // route: "/sections/page-sections/features",
-            component: <Features />,
+            // component: <Features />,
+            route: "/product/construction-building",
+            component: <ConstructionBuilding />,
           },
           {
             name: "piping & instrumen",
             // route: "/sections/page-sections/features",
-            component: <Features />,
+            // component: <Features />,
+            route: "/product/piping-instrumen",
+            component: <PipingInstrument />,
           },
           {
             name: "ducting & insulation",
             // route: "/sections/page-sections/features",
-            component: <Features />,
+            // component: <Features />,
+            route: "/product/ducting-insulation",
+            component: <DuctingInsulation />,
           },
           {
             name: "sandblasting & painting",
             // route: "/sections/page-sections/features",
-            component: <Features />,
+            // component: <Features />,
+            route: "/product/sandblasting-painting",
+            component: <SandblastingPainting />,
           },
         ],
       },

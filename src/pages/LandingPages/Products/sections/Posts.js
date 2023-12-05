@@ -36,7 +36,9 @@ import img2 from "assets/images/BMT/img-use/storage-tank/tower1.jpg";
 import img3 from "assets/images/BMT/img-use/storage-tank/IMG_5057.JPG";
 import img4 from "assets/images/BMT/img-use/storage-tank/tower1.jpg";
 
-function Places() {
+function Places(data) {
+  const products = data.data;
+  // console.log(products);
   return (
     <MKBox component="section" py={2}>
       <Container>
@@ -46,7 +48,39 @@ function Places() {
           </MKTypography>
         </Grid>
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} lg={3}>
+          {products.map((data) =>
+            data.type == "img" ? (
+              <Grid item xs={12} sm={6} lg={data.lg} key={data.id}>
+                <TransparentBlogCard
+                  image={data.img}
+                  title={data.title}
+                  description={data.description}
+                  action={
+                    {
+                      // type: "internal",
+                      // route: "/pages/blogs/author",
+                      // color: "info",
+                      // label: "read more",
+                    }
+                  }
+                />
+              </Grid>
+            ) : (
+              <Grid item xs={12} sm={6} lg={data.lg} key={data.id}>
+                <BackgroundBlogCard
+                  image={data.img}
+                  title={data.title}
+                  description={data.description}
+                  action={{
+                    type: "internal",
+                    // route: "/pages/blogs/author",
+                    label: "read more",
+                  }}
+                />
+              </Grid>
+            )
+          )}
+          {/* <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
               image={img1}
               title="Rover raised $65 million"
@@ -61,7 +95,7 @@ function Places() {
               }
             />
           </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
               image={img2}
               title="MateLabs machine learning"
@@ -76,7 +110,7 @@ function Places() {
               }
             />
           </Grid>
-          {/* <Grid item xs={12} sm={6} lg={3}>
+          <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
               image={img3}
               title="MateLabs machine learning"
@@ -88,8 +122,8 @@ function Places() {
                 label: "read more",
               }}
             />
-          </Grid> */}
-          <Grid item xs={12} sm={6} lg={5}>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={3}>
             <BackgroundBlogCard
               image={img4}
               title="Flexible work hours"
@@ -100,7 +134,7 @@ function Places() {
                 label: "read more",
               }}
             />
-          </Grid>
+          </Grid> */}
         </Grid>
       </Container>
     </MKBox>

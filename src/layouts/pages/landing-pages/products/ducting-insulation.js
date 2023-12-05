@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Material Kit 2 React pages
-import Products from "pages/LandingPages/Products";
+import DuctingInsulation from "pages/LandingPages/Products/DuctingInsulation";
 
 export default function ProductPages() {
-  return <Products />;
+  return <DuctingInsulation />;
 }

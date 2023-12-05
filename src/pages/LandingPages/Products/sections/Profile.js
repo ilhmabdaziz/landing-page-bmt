@@ -24,12 +24,15 @@ import MKAvatar from "components/MKAvatar";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
+// prop-types is a library for typechecking of props
+import PropTypes from "prop-types";
+
 // Images
 // import profilePicture from "assets/images/bruce-mars.jpg";
 import profilePicture from "assets/images/BMT/img-use/storage-tank/IMG_5057.JPG";
 import TransparentBlogCard from "examples/Cards/BlogCards/TransparentBlogCard";
 
-function Profile() {
+function Profile({ title, description }) {
   return (
     <MKBox component="section" py={{ xs: 6, sm: 12 }}>
       <Container>
@@ -53,7 +56,7 @@ function Profile() {
           <Grid container justifyContent="center" py={6}>
             <Grid item xs={12} md={7} mx={{ xs: "auto", sm: 6, md: 1 }}>
               <MKBox display="flex" justifyContent="space-between" alignItems="center" mb={1}>
-                <MKTypography variant="h3">Storage Tank</MKTypography>
+                <MKTypography variant="h3">{title}</MKTypography>
                 {/* <MKButton variant="outlined" color="info" size="small">
                   Follow
                 </MKButton> */}
@@ -88,10 +91,11 @@ function Profile() {
                 {/* Decisions: If you can&apos;t decide, the answer is no. If two equally difficult
                 paths, choose the one more painful in the short term (pain avoidance is creating an
                 illusion of equality). Choose the path that leaves you more equanimous. <br /> */}
-                Many factors should be taken into consideration when designing and building storage
+                {description}
+                {/* Many factors should be taken into consideration when designing and building storage
                 tanks. Although the most important factor is dependent upon the application and the
                 method of usage that the storage tank is built for, taking into account the logistic
-                process, method of shipping, and installation is also important. <br />
+                process, method of shipping, and installation is also important. <br /> */}
                 {/* <MKTypography
                   component="a"
                   href="#"
@@ -124,5 +128,10 @@ function Profile() {
     </MKBox>
   );
 }
+
+Profile.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
 
 export default Profile;

@@ -44,21 +44,23 @@ function Information() {
                 icon="touch_app"
                 title={
                   <>
-                    Feel the
-                    <br />
-                    Material Kit
+                    Visi
+                    {/* <br /> */}
+                    {/* Material Kit */}
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                // description="All the MUI components that you need in a development have been re-design with the new look."
+                description="Menjadi perusahaan yang terdepan dalam Industri Konstruksi."
               />
               <RotatingCardBack
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                title="Misi"
+                description="Menciptakan nilai perusahaan dari hasil produk yang berkualitas, Mutu tinggi, modernisasi, dan dapat dibanggakan."
                 action={{
                   type: "internal",
                   // route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  route: "/about-us",
+                  label: "check my about us",
                 }}
               />
             </RotatingCard>

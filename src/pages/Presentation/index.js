@@ -125,7 +125,7 @@ function Presentation() {
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
         </Container>
-        <Container>
+        {/* <Container>
           <Grid container spacing={3}>
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
@@ -168,7 +168,7 @@ function Presentation() {
               />
             </Grid>
           </Grid>
-        </Container>
+        </Container> */}
         {/* <Testimonials /> */}
         {/* <Download /> */}
         <MKBox pt={18} pb={6}>

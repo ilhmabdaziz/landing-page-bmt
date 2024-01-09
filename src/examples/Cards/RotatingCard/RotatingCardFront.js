@@ -40,7 +40,7 @@ function RotatingCardFront({ color, image, icon, title, description }) {
             // rgba(gradients[color] ? gradients[color].main : gradients.info.main, 0.85),
             // rgba(gradients[color] ? gradients[color].main : gradients.info.main, 0.85)
             rgba(gradients[color] ? gradients[color].main : gradients.info.main, 0.15),
-            rgba(gradients[color] ? gradients[color].main : gradients.info.main, 0.65)
+            rgba(gradients[color] ? gradients[color].main : gradients.info.main, 0.45)
           )}, url(${image})`,
         backgroundSize: "cover",
         // backgroundSize: "contain",
@@ -58,7 +58,7 @@ function RotatingCardFront({ color, image, icon, title, description }) {
         <MKTypography variant="h3" color="white" gutterBottom>
           {title}
         </MKTypography>
-        <MKTypography variant="body2" color="white" opacity={0.8}>
+        <MKTypography variant="body1" color="white" opacity={1}>
           {description}
         </MKTypography>
       </MKBox>

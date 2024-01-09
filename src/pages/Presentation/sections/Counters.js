@@ -29,9 +29,10 @@ function Counters() {
     <MKBox component="section" py={3}>
       <Container>
         <Grid container item xs={12} lg={12} sx={{ mx: "auto" }}>
-          <Grid item xs={12} md={3}>
+          {/* <Grid item xs={12} md={3}> */}
+          <Grid item xs={12} md={6}>
             <DefaultCounterCard
-              count={450}
+              count={50}
               suffix="+"
               title="Completed Projects"
               // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -39,37 +40,38 @@ function Counters() {
             />
           </Grid>
           {/* <Grid item xs={12} md={3} display="flex"> */}
-          <Grid item xs={12} md={3}>
-            {/* <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} /> */}
-            <DefaultCounterCard
+          {/* <Grid item xs={12} md={3}> */}
+          {/* <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} /> */}
+          {/* <DefaultCounterCard
               count={80}
               suffix="+"
               title="Current Projects"
               // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               description=""
-            />
-            <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
-          </Grid>
-          <Grid item xs={12} md={3}>
+            /> */}
+          {/* <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} /> */}
+          {/* </Grid> */}
+          <Grid item xs={12} md={6}>
             <DefaultCounterCard
-              count={300}
+              count={100}
+              suffix="+"
               title="Employees"
               // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               description=""
             />
           </Grid>
           {/* <Grid item xs={12} md={3} display="flex"> */}
-          <Grid item xs={12} md={3}>
-            {/* <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} /> */}
-            <DefaultCounterCard
+          {/* <Grid item xs={12} md={3}> */}
+          {/* <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} /> */}
+          {/* <DefaultCounterCard
               count={50}
               suffix="+"
               title="Certifications"
               // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               description=""
-            />
-            <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
-          </Grid>
+            /> */}
+          {/* <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} /> */}
+          {/* </Grid> */}
         </Grid>
       </Container>
     </MKBox>

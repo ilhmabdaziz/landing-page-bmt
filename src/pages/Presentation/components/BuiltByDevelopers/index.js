@@ -51,7 +51,7 @@ function BuiltByDevelopers() {
       <Container>
         <Grid container item xs={12} lg={6} sx={{ ml: { xs: 0, lg: 6 } }}>
           <MKTypography variant="h4" color="white" fontWeight="bold">
-            Built by PT Buana Megah Teknik
+            Dibangun oleh PT Buana Megah Teknik
           </MKTypography>
           <MKTypography variant="h1" color="white" mb={20}>
             Engineering & Construction
@@ -86,7 +86,7 @@ function BuiltByDevelopers() {
               },
             }}
           >
-            Read more About us <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+            Baca lebih lanjut Tentang kami <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
           </MKTypography>
           {/* </Link> */}
         </Grid>

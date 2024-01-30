@@ -55,12 +55,12 @@ function Pages() {
           <MKBadge
             variant="contained"
             color="info"
-            badgeContent="LOCATION"
+            badgeContent="LOKASI"
             container
             sx={{ mb: 2 }}
           />
           <MKTypography variant="h2" fontWeight="bold">
-            HEAD OFFICE
+            KANTOR PUSAT
           </MKTypography>
           <MKTypography variant="body1" color="text">
             {/* The easiest way to get started is to use one of our

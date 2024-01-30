@@ -34,7 +34,7 @@ function Counters() {
             <DefaultCounterCard
               count={50}
               suffix="+"
-              title="Completed Projects"
+              title="Proyek Selesai"
               // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               description=""
             />
@@ -55,7 +55,7 @@ function Counters() {
             <DefaultCounterCard
               count={100}
               suffix="+"
-              title="Employees"
+              title="Karyawan"
               // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               description=""
             />

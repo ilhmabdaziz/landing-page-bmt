@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 import image1 from "../../../../assets/images/BMT/IMG1.JPG";
-import image2 from "../../../../assets/images/BMT/img-use/HO.png";
+import image2 from "../../../../assets/images/BMT/img-use/office.jpg";
 import image3 from "../../../../assets/images/BMT/img-use/workshop-narogong.jpeg";
 import image4 from "../../../../assets/images/BMT/img-use/Workshop-hayono.png";
 import image5 from "../../../../assets/images/BMT/IMG2.jpg";

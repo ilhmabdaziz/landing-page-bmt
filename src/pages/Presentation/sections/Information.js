@@ -70,16 +70,15 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="diversity_3"
-                  title="Teamwork"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  title="Kerja tim"
+                  description="Membangun tim yang solid membutuhkan perasaan kesatuan, dari ketergantungan pada satu sama lain dan kekuatan yang akan didapatkan oleh adanya kesatuan"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="engineering"
-                  title="continuous Development"
-                  description="The world's most popular react components library for building."
+                  title="Pembangunan berkelanjutan"
+                  description="PT Buana Megah Teknik sukses dan mempunyai potensi besar untuk menangani berbagai proyek berskala besar dan memiliki deretan pelanggan setia yang terdiri dari sejumlah perusahaan besar yang secara terus-menerus dan berkelanjutan "
                 />
               </Grid>
             </Grid>
@@ -87,15 +86,15 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  title="Hemat Waktu & Uang"
+                  description="meminimalkan sumber daya yang ada dalam pekerjan kompetitif, kerja sama tim yang bagus, produk  dapat berkualitas yang baik dan mengerjakan secara tepat waktu"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="task_alt"
-                  title="Excellence"
-                  description="Regardless of the screen size, will naturally fit the given resolution."
+                  title="Keunggulan"
+                  description="Penyelesaian lehbih tepat waktu, kualitas yang baik, kemanan pekerja terjamin, dan harga yang kompetitif."
                 />
               </Grid>
             </Grid>

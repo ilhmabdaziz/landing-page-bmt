@@ -75,37 +75,37 @@ import Alerts from "layouts/sections/attention-catchers/alerts";
 
 const routes = [
   {
-    name: "about us",
+    name: "Tentang Kami",
     icon: <Icon>business</Icon>,
     columns: 1,
     rowsPerColumn: 2,
     collapse: [
       {
-        name: "our profile",
+        name: "Profil Kami",
         collapse: [
           {
-            name: "vision & mission",
+            name: "Visi & Misi",
             // route: "/pages/landing-pages/about-us",
             route: "/about-us",
             component: <AboutUs />,
           },
           {
-            name: "company structure",
+            name: "Struktur perusahaan",
             // route: "/pages/landing-pages/contact-us",
             component: <ContactUs />,
           },
           {
-            name: "achievements & certifications",
+            name: "Prestasi & Sertifikasi",
             // route: "/pages/landing-pages/author",
             component: <Author />,
           },
           {
-            name: "equipments",
+            name: "Peralatan",
             // route: "/pages/landing-pages/author",
             component: <Author />,
           },
           {
-            name: "ISO certificates",
+            name: "Sertifikat ISO",
             // route: "/pages/landing-pages/author",
             component: <Author />,
           },
@@ -124,12 +124,12 @@ const routes = [
     ],
   },
   {
-    name: "our business",
+    name: "Bisnis Kita",
     icon: <Icon>factory</Icon>,
     collapse: [
       {
-        name: "product",
-        description: "See all product",
+        name: "produk",
+        description: "Lihat semua produk",
         dropdown: true,
         collapse: [
           {
@@ -172,17 +172,17 @@ const routes = [
         ],
       },
       {
-        name: "project",
-        description: "See all project",
+        name: "proyek",
+        description: "Lihat semua proyek",
         dropdown: true,
         collapse: [
           {
-            name: "current projects",
+            name: "proyek sekarang",
             // route: "/sections/navigation/navbars",
             component: <Navbars />,
           },
           {
-            name: "completed pprojects",
+            name: "proyek yang diselesaikan",
             // route: "/sections/navigation/nav-tabs",
             component: <NavTabs />,
           },
@@ -194,8 +194,8 @@ const routes = [
         ],
       },
       {
-        name: "business services & recondition",
-        description: "See all business services & recondition",
+        name: "layanan bisnis & rekondisi",
+        description: "Lihat semua layanan bisnis & rekondisi",
         dropdown: true,
         collapse: [
           {
@@ -231,12 +231,12 @@ const routes = [
         ],
       },
       {
-        name: "partnership",
-        description: "See all partnership",
+        name: "kemitraan",
+        description: "Lihat semua kemitraan",
         dropdown: true,
         collapse: [
           {
-            name: "our clients",
+            name: "klien kami",
             // route: "/sections/attention-catchers/alerts",
             component: <Alerts />,
           },
@@ -302,12 +302,12 @@ const routes = [
     ],
   },
   {
-    name: "contact us",
+    name: "Hubungi kami",
     icon: <Icon>contacts</Icon>,
     // href: "https://www.github.com/creativetimofficial/material-kit-react",
   },
   {
-    name: "safety",
+    name: "keamanan",
     icon: <Icon>engineering</Icon>,
     // href: "https://www.github.com/creativetimofficial/material-kit-react",
   },
